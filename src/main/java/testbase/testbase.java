@@ -81,7 +81,8 @@ public class testbase {
             System.out.println(OR.getProperty("browser"));
             selectBrowser(OR.getProperty("browser"));
             geturl(OR.getProperty("url"));
-        } catch (exception e)
+        } catch (Exception e){
+            getScreenShot("initIssue");}
         }
 
     public void selectBrowser(String browser){
