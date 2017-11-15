@@ -34,3 +34,9 @@ Forgot your password? Get a new one.
 Careful! After five tries, you'll get locked out.
 Forgot your password? Get a new one.
 2017-11-13 19:35:14 INFO  tc_001:34 - ===================================Finished executing Test case 1====================
+2017-11-15 12:04:22 INFO  testbase:125 - navigating to :-http://automationpractice.com/index.php
+2017-11-15 12:04:28 INFO  tc_001:31 - ========================Starting Test case 1 =====================
+2017-11-15 12:04:35 INFO  tc_001:35 - ===================================Finished executing Test case 1====================
+2017-11-15 13:03:07 INFO  testbase:125 - navigating to :-http://automationpractice.com/index.php
+2017-11-15 13:03:14 INFO  tc_001:31 - ========================Starting Test case 1 =====================
+2017-11-15 13:03:16 INFO  tc_001:35 - ===================================Finished executing Test case 1====================

@@ -86,6 +86,9 @@ public class HomePage {
         log("clicked on sublit button and object is:-"+signInBtn.toString());
     }
 
+    public String getTitle(){
+      return  driver.getTitle();
+    }
 
 
 
