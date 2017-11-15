@@ -6,50 +6,67 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import static org.testng.Reporter.log;
+
 public class HomePage {
 
     public static final Logger log = Logger.getLogger(HomePage.class.getName());
 
     WebDriver driver;
 
-    @FindBy(id="sign_in")
+    @FindBy(className="login")
     WebElement signInLink;
 
-    @FindBy(id="username")
+    @FindBy(id="email")
     WebElement uname;
 
-    @FindBy(id="password")
+    @FindBy(id="passwd")
     WebElement pword;
 
-    @FindBy(xpath=".//*[@id='formSignIn']/p[5]/a")
+    @FindBy(id="SubmitLogin")
     WebElement signInBtn;
 
-    @FindBy(xpath=".//*[@id='invalidCredentials']")
-    WebElement authenticationFailMessage;
+    @FindBy(xpath=".//*[contains(Text(),'Already registered?')]")
+    WebElement alreadyRegistered;
 
-    @FindBy(id="explore_benefits")
-    WebElement join;
+    @FindBy(xpath=".//*[contains(Text(),'Forgot your password')]")
+    WebElement forgotYourPasswordLink;
 
-    @FindBy(id="firstNameJoin")
-    WebElement firstnameJoin;
+    @FindBy(id="email_create")
+    WebElement emailCreate;
 
-    @FindBy(id="lastNameJoin")
-    WebElement lastnameJoin;
+    @FindBy(id="SubmitCreate")
+    WebElement createAccount;
 
-    @FindBy(id="phoneJoin")
-    WebElement phoneJoin;
+    @FindBy(xpath=".//*[@id='create_account_error']/ol/li")
+    WebElement emailerror;
 
-    @FindBy(id="emailJoin")
-    WebElement emailJoin;
+    @FindBy(xpath=".//*[@id='create-account_form']/div/p")
+    WebElement createAccountMessage;
 
-    @FindBy(id="street1")
-    WebElement address;
+    @FindBy(id = "newsletter-input")
+    WebElement newsletterEmail;
 
-    @FindBy(id="street2")
-    WebElement additionaladdress;
+    @FindBy(id="newsletter_block_left")
+    WebElement newsletterBlock;
 
-    @FindBy(id="postalCode")
-    WebElement zip;
+    @FindBy(id="social_block")
+    WebElement socialblock;
+
+    @FindBy(xpath=".//*[@class='facebook']")
+    WebElement facebook;
+
+    @FindBy(xpath=".//*[@class='twitter']")
+    WebElement twitter;
+
+    @FindBy(xpath = ".//*[@class='youtube']")
+    WebElement youtube;
+
+    @FindBy(xpath = ".//*[@class='google-plus']")
+    WebElement googleplus;
+
+    @FindBy(xpath=".//*[@class='alert alert-danger']/ol/li")
+    WebElement errormessage;
 
 
 
@@ -60,18 +77,17 @@ public class HomePage {
     }
     public void loginToApplication(String username, String password){
         signInLink.click();
-        log.info("sign in link clicked and the object is "+signInLink.toString());
+        log("cliked on sign in and object is:-"+signInLink.toString());
         uname.sendKeys(username);
-        log.info("username "+username+" entered and the object is "+uname.toString());
+        log("entered email address:-"+uname+" and object is "+uname.toString());
         pword.sendKeys(password);
-        log.info("password "+password+" entered and the object is "+pword.toString());
+        log("entered password:-"+password+" and object is "+pword.toString());
         signInBtn.click();
-        log.info("sign in button clicked and the object is "+signInBtn.toString());
+        log("clicked on sublit button and object is:-"+signInBtn.toString());
     }
 
-    public String getInvalidLoginMessage(){
-        log.info("authentication fail message displayed is "+authenticationFailMessage.getText());
-        return authenticationFailMessage.getText();
-    }
+
+
+
 
 }

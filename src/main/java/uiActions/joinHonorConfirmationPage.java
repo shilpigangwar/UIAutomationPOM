@@ -13,5 +13,9 @@ public class joinHonorConfirmationPage {
     @FindBy(id="welcome")
     WebElement welcomeheader;
 
+    @FindBy(id="welcome")
+    WebElement welcomeheade111r;
+
+
 
 }
