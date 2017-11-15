@@ -1,0 +1,36 @@
+2017-11-11 13:54:57 INFO  tc_001:28 - ========================Starting Test case 1 =====================
+2017-11-11 13:56:00 INFO  HomePage:35 - sign in link clicked and the object is Proxy element for: DefaultElementLocator 'By.id: sign_in'
+2017-11-11 13:56:00 INFO  HomePage:37 - username username@123.com entered and the object is [[FirefoxDriver: firefox on XP (8c37146d-1cca-4b09-9411-36baf796ac9f)] -> id: username]
+2017-11-11 13:56:00 INFO  HomePage:39 - password password123 entered and the object is [[FirefoxDriver: firefox on XP (8c37146d-1cca-4b09-9411-36baf796ac9f)] -> id: password]
+2017-11-11 13:56:02 INFO  HomePage:41 - signin button clicked and the object is [[FirefoxDriver: firefox on XP (8c37146d-1cca-4b09-9411-36baf796ac9f)] -> xpath: .//*[@id='formSignIn']/p[5]/a]
+2017-11-11 13:56:02 INFO  HomePage:45 - authentication fail message displayed is Hmm, your login details don't seem right. Check that your caps lock is off and try again.
+Careful! After five tries, you'll get locked out.
+Forgot your password? Get a new one.
+2017-11-11 13:56:03 INFO  tc_001:34 - ===================================Finished executing Test case 1====================
+2017-11-11 16:22:21 INFO  tc_001:28 - ========================Starting Test case 1 =====================
+2017-11-11 16:23:26 INFO  HomePage:36 - sign in link clicked and the object is Proxy element for: DefaultElementLocator 'By.id: sign_in'
+2017-11-11 16:23:26 INFO  HomePage:38 - username username@123.com entered and the object is [[ChromeDriver: chrome on XP (adce235a30f12a89b43a6623a9d0f0a0)] -> id: username]
+2017-11-11 16:23:26 INFO  HomePage:40 - password password123 entered and the object is [[ChromeDriver: chrome on XP (adce235a30f12a89b43a6623a9d0f0a0)] -> id: password]
+2017-11-11 16:23:28 INFO  HomePage:42 - sign in button clicked and the object is [[ChromeDriver: chrome on XP (adce235a30f12a89b43a6623a9d0f0a0)] -> xpath: .//*[@id='formSignIn']/p[5]/a]
+2017-11-11 16:23:28 INFO  HomePage:46 - authentication fail message displayed is Hmm, your login details don't seem right. Check that your caps lock is off and try again.
+Careful! After five tries, you'll get locked out.
+Forgot your password? Get a new one.
+2017-11-11 16:23:28 INFO  tc_001:34 - ===================================Finished executing Test case 1====================
+2017-11-11 18:01:26 INFO  tc_001:28 - ========================Starting Test case 1 =====================
+2017-11-11 18:01:31 INFO  HomePage:36 - sign in link clicked and the object is Proxy element for: DefaultElementLocator 'By.id: sign_in'
+2017-11-11 18:01:31 INFO  HomePage:38 - username username@123.com entered and the object is [[ChromeDriver: chrome on XP (ddd0db1581ef2a451c5c0a72dc2994db)] -> id: username]
+2017-11-11 18:01:31 INFO  HomePage:40 - password password123 entered and the object is [[ChromeDriver: chrome on XP (ddd0db1581ef2a451c5c0a72dc2994db)] -> id: password]
+2017-11-11 18:01:34 INFO  HomePage:42 - sign in button clicked and the object is [[ChromeDriver: chrome on XP (ddd0db1581ef2a451c5c0a72dc2994db)] -> xpath: .//*[@id='formSignIn']/p[5]/a]
+2017-11-11 18:01:34 INFO  HomePage:46 - authentication fail message displayed is Hmm, your login details don't seem right. Check that your caps lock is off and try again.
+Careful! After five tries, you'll get locked out.
+Forgot your password? Get a new one.
+2017-11-11 18:01:34 INFO  tc_001:34 - ===================================Finished executing Test case 1====================
+2017-11-13 19:35:07 INFO  tc_001:28 - ========================Starting Test case 1 =====================
+2017-11-13 19:35:11 INFO  HomePage:36 - sign in link clicked and the object is Proxy element for: DefaultElementLocator 'By.id: sign_in'
+2017-11-13 19:35:11 INFO  HomePage:38 - username username@123.com entered and the object is [[ChromeDriver: chrome on XP (82b3ec0824bff9226456d3572e957b37)] -> id: username]
+2017-11-13 19:35:11 INFO  HomePage:40 - password password123 entered and the object is [[ChromeDriver: chrome on XP (82b3ec0824bff9226456d3572e957b37)] -> id: password]
+2017-11-13 19:35:14 INFO  HomePage:42 - sign in button clicked and the object is [[ChromeDriver: chrome on XP (82b3ec0824bff9226456d3572e957b37)] -> xpath: .//*[@id='formSignIn']/p[5]/a]
+2017-11-13 19:35:14 INFO  HomePage:46 - authentication fail message displayed is Hmm, your login details don't seem right. Check that your caps lock is off and try again.
+Careful! After five tries, you'll get locked out.
+Forgot your password? Get a new one.
+2017-11-13 19:35:14 INFO  tc_001:34 - ===================================Finished executing Test case 1====================
